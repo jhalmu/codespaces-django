@@ -1,10 +1,22 @@
 # GitHub Codespaces ♥️ Django
 
-Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
+Started here. Will see how this is going to go.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+### Some links to addons:
+https://github.com/carltongibson/neapolitan
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+https://github.com/django-crispy-forms/crispy-tailwind
+
+https://tailwindcss.com/docs/installation
+
+https://github.com/unfoldadmin/django-unfold
+
+### Some videos for helping installing
+
+https://www.youtube.com/watch?v=PMgihDySEY8
+
+https://www.youtube.com/watch?v=XKD7w12xP3k
+
 
 ## installing dependancies
 
