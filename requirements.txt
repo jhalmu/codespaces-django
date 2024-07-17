@@ -3,6 +3,7 @@ Django
 django-browser-reload
 python-decouple
 sqlparse
-neapolitan
+# neapolitan
 crispy-tailwind
 django-unfold #https://github.com/unfoldadmin/django-unfold
+django-cors-headers
