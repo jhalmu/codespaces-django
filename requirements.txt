@@ -6,4 +6,8 @@ sqlparse
 # neapolitan
 crispy-tailwind
 django-unfold #https://github.com/unfoldadmin/django-unfold
+<<<<<<< HEAD
+=======
+graphene-django
+>>>>>>> e950869 (admin, models)
 django-cors-headers

@@ -27,11 +27,16 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+<<<<<<< HEAD
 # CORS_ALLOWED_ORIGINS = ('http://localhost:5173',)
+=======
+CORS_ALLOWED_ORIGINS = ("http://localhost:5173",)
+>>>>>>> e950869 (admin, models)
 
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     'unfold',
     # "unfold.contrib.filters",  # optional, if special filters are needed
     # "unfold.contrib.forms",  # optional, if special form elements are needed
@@ -61,6 +66,38 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+=======
+    "unfold",
+    #"unfold.contrib.filters",  # optional, if special filters are needed
+    #"unfold.contrib.forms",  # optional, if special form elements are needed
+    #"unfold.contrib.inlines",  # optional, if special inlines are needed
+    #"unfold.contrib.import_export",  # optional, if django-import-export package is used
+    #"unfold.contrib.guardian",  # optional, if django-guardian package is used
+    #"unfold.contrib.simple_history",  # optional, if django-simple-history package is used
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "neapolitan",
+    "crispy_forms",
+    "crispy_tailwind",
+    "blog.apps.BlogConfig",
+    "graphene_django",
+    "corsheaders",
+]
+
+MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.security.SecurityMiddleware",
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    "django.middleware.csrf.CsrfViewMiddleware",
+    "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "django.contrib.messages.middleware.MessageMiddleware",
+    "django.middleware.clickjacking.XFrameOptionsMiddleware",
+>>>>>>> e950869 (admin, models)
 ]
 
 ROOT_URLCONF = 'core.urls'
